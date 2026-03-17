@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\JobSeeker.Application\JobSeeker.Application.csproj" />
     <ProjectReference Include="..\JobSeeker.Infrastructure\JobSeeker.Infrastructure.csproj" />
   </ItemGroup>
 
