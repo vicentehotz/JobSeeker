@@ -47,6 +47,13 @@ Configured in `JobSeeker.Api/appsettings*.json`:
 - Remote OK
 - We Work Remotely
 - HN Jobs
+- Indeed (Bing RSS)
+- Greenhouse (Bing RSS)
+- Python.org Jobs
+- Django Jobs
+- Jobicy
+- Smashing Magazine Jobs
+- Reddit RemoteJS
 
 ## Roadmap
 
