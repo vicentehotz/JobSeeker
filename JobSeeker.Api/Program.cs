@@ -42,6 +42,7 @@ app.MapPost("/api/search", SearchJobsAsync)
     .Produces<JobSearchResponse>(StatusCodes.Status200OK)
     .Produces<JobSearchResponse>(StatusCodes.Status400BadRequest)
     .ProducesProblem(StatusCodes.Status500InternalServerError)
+    .DisableAntiforgery()
     .WithName("SearchJobs")
     .WithOpenApi();
 

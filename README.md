@@ -48,6 +48,11 @@ Configured in `JobSeeker.Api/appsettings*.json`:
 - We Work Remotely
 - HN Jobs
 
+## Roadmap
+
+1. Add focused backend and Angular tests for invalid files, empty results, and feed failures.
+2. Replace the current PDF extraction package with a cleaner dependency to remove the remaining restore warnings.
+
 ## Verification
 
 - `dotnet build JobSeeker.sln`
